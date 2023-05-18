@@ -46,22 +46,6 @@ export default function Moviments() {
         <Text className="font-bold text-dtmoney-gray-400">4 itens</Text>
       </View>
 
-      {/* START FLATLIST 
-      <View className="p-6 mt-6 bg-dtmoney-gray-50 rounded-md">
-        <View className="flex-col">
-          <Text className="text-base text-dtmoney-gray-700 font-semibold">
-            Desenvolvimento de site
-          </Text>
-          <Text className="text-2xl text-dtmoney-green-500 font-medium">
-            R$ 12.000,00
-          </Text>
-        </View>
-        <View className="flex-row justify-between items-center mt-6">
-          <Text className="text-dtmoney-gray-400 font-bold">categoria</Text>
-          <Text className="text-dtmoney-gray-400 font-bold">10/04/2023</Text>
-        </View>
-      </View>
-*/}
       <FlatList
         data={list}
         renderItem={({item}) => (
@@ -82,7 +66,6 @@ export default function Moviments() {
             </View>
           </View>
         )}
-        
       />
       {/* END FLATLIST */}
     </View>
