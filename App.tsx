@@ -6,18 +6,9 @@
  */
 
 import React from 'react';
-import {
-  Text,
-  View,
-} from 'react-native';
+import {Text, View} from 'react-native';
+import Home from './src/pages/Home';
 
-import Icon from 'react-native-vector-icons/Feather'
-
-export default function App(){
-
-  return (
-    <View className='flex-1 bg-zinc-800 items-center justify-center'>
-      <Icon name='plus' size={96} color={'#fff'} />
-    </View>
-  );
+export default function App() {
+  return <Home />;
 }
